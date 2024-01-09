@@ -80,6 +80,7 @@ bool IsStrangePair(string str1, string str2)
     return strangeness; 
 } 
 
+//Tests
 Console.WriteLine(IsStrangePair("ratio", "orator"));        // True, "ratio" ends with "o" and "orator" starts with "o". "ratio" starts with "r" and "orator" ends with "r". 
 Console.WriteLine(IsStrangePair("sparkling", "groups"));    // True
 Console.WriteLine(IsStrangePair("bush", "hubris"));        // False
